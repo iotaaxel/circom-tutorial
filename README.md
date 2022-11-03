@@ -29,7 +29,7 @@ I am following along with the introduction documentation from [Circom](https://d
 ### Verify a Proof (option 1)
 1. Run `snarkjs groth16 verify verification_key.json public.json proof.json`
 
-Outputs: ```[INFO]  snarkJS: OK!```
+   Outputs: ```[INFO]  snarkJS: OK!```
 
 ### Verify a Proof with a Smart Contract (option 2)
 1. Generate the Solidity code: `snarkjs zkey export solidityverifier multiplier2_0001.zkey verifier.sol`
